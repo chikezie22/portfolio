@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font-awesome.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+
+    <!-- background circles start -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!-- background circles end -->
+
+    <!-- Overlay Start -->
+    <div class="overlay"></div>
+    <!-- Overlay End -->
+
+    <!-- Main Start -->
+    <div class="main hidden">
+      <!-- Header Start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <nav class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Home Section Start -->
+      <section class="home-section align-items active" id="home">
+        <div class="container">
+          <div class="row align-items">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Simon Chikezie</h1>
+              <h2>MEAN Stack Developer</h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="img/image.png" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- About Section Start -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="img/about-me.png" alt="about-me" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Hello, I'm Chikezie Simon, a Computer Science Edducation
+                graduate from the University of Jos. My journey in the world of
+                technology has been fueled up by a deep passion for learning and
+                a desire to make a difference in the lives of others. With a
+                solid foundation in computer science, I've honed my skills to
+                navigate the ever evolving landscape of technology. From coding
+                to problem-solving, I thrive in the world of algorithms and data
+                structures. Beyond tech, I'm a sports enthysiast, finding
+                inspiration in the dedication and teamwork displayed by
+                atheletes. Sports teach us valuable life lessons, and I'm always
+                eager to share this insights. My mission is simple: to share my
+                knowledge, inspire others to learn, and make a positive impact
+                in the world. I also believe in the power of collaboration and
+                connection. If you share similar interests or have questions,
+                don't hesitate to reach out. Let's learn, grow and achieve great
+                things together. Thank you for stopping by, and i look forward
+                to connecting with you!
+              </p>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">Html</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">Bootstrap</div>
+                <div class="skill-item">Javascript</div>
+                <div class="skill-item">Angular</div>
+                <div class="skill-item">Firebase</div>
+                <div class="skill-item">NodeJs</div>
+                <div class="skill-item">TypeScript</div>
+              </div>
+              <div class="about-tabs">
+                <button class="tab-item active" data-target="#education">
+                  education
+                </button>
+
+                <button class="tab-item" data-target="#experience">
+                  experience
+                </button>
+              </div>
+
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2017 - 2022</span>
+                    <h4>
+                      bachelor of technology - <span></span>University of Jos
+                    </h4>
+                    <p>A 4year Degree program in Computer Science Education</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Education End -->
+
+              <!-- Experience Start -->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2022 - 2023</span>
+                    <h4>code plateau web developer</h4>
+                    <p>
+                      A year program on web development courtesy Plateau State
+                      Government
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Experience End -->
+
+              <a href="cv/chikeCV.pdf" target="_blank" class="btn"
+                >download cv</a
+              >
+              <a href="#contact" class="btn link-item">contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/natours.png" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">Natours Frontend Website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This is a frontend project that show case basic css skills
+                    such as grid, flexbox and some basic animations
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 August 2022</span></li>
+                    <li>technologies used - <span>Html, Css</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://stellular-licorice-f7a5a3.netlify.app"
+                          target="_blank"
+                          >stellular-licorice-f7a5a3.netlify.app</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- another portfolio -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/text to speech.png" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">Text to Speech Website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This is a frontend project that show case basic skills on
+                    html css and javascript
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>10 April 2023</span></li>
+                    <li>technologies used - <span>Html, Css, Js</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://cheerful-flan-3215f8.netlify.app/"
+                          target="_blank"
+                          >cheerful-flan-3215f8.netlify.app/</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- another portfolio -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/bank.png" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">Bank Website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This is a frontend project that show case basic skills on
+                    html css and javascript use a demo account. <br />
+                    user:CS <br />
+                    pin:1111
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>17 April 2023</span></li>
+                    <li>technologies used - <span>Html, Css, Js</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://elaborate-quokka-dfcf08.netlify.app/"
+                          target="_blank"
+                          >elaborate-quokka-dfcf08.netlify.app/</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Portfolio Item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Contact Start Section -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Email"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <textarea
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="submit-button">
+                    <button type="submit" class="btn">send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>simonchikezie44@gmail.com</p>
+              </div>
+
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>081 **** ****</p>
+              </div>
+
+              <div class="contact-info-item">
+                <h3>follow me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://web.facebook.com/chikezie.simon"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/chikezie-simon-549916152/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                  <a href="https://x.com/chikezie_simon" target="_blank"
+                    ><i class="fa-brands fa-x-twitter"></i
+                  ></a>
+
+                  <a href="https://github.com/chikezie22" target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+
+                  <a
+                    href="https://app.netlify.com/teams/chikezie22/overview"
+                    target="_blank"
+                    ><i class="fa-solid fa-diamond"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact End Section -->
+    </div>
+    <!-- Main End -->
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button class="btn pp-close" type="button">
+              <i class="fa fa-close"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="" alt="" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Item Details Popup End -->
+    <script src="index.js"></script>
+  </body>
+</html>
